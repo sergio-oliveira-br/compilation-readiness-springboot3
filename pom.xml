@@ -65,6 +65,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.github.sergiooliveirabr.compilationreadinessspringboot3.CompilationReadinessSpringboot3Application</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -80,7 +83,7 @@
                         <version>0.10.2</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <mainClass>com.github.sergiooliveirabr.CompilationReadinessSpringboot3Application</mainClass>
+                            <mainClass>com.github.sergiooliveirabr.compilationreadinessspringboot3.CompilationReadinessSpringboot3Application</mainClass>
                         </configuration>
                         <executions>
                             <execution>
