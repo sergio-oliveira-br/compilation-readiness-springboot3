@@ -70,17 +70,22 @@
 
     <build>
         <plugins>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
             <plugin>
                 <groupId>org.graalvm.buildtools</groupId>
                 <artifactId>native-maven-plugin</artifactId>
                 <version>1.1.1</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <mainClass>
-                        com.github.sergiooliveirabr.compilationreadinessspringboot3.CompilationReadinessSpringboot3Application
-                    </mainClass>
+                    <mainClass>com.github.sergiooliveirabr.compilationreadinessspringboot3.CompilationReadinessSpringboot3Application</mainClass>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>
