@@ -68,14 +68,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.github.sergiooliveirabr.compilationreadinessspringboot3.CompilationReadinessSpringboot3Application</mainClass>
-                </configuration>
-            </plugin>
-
-            <plugin>
                 <groupId>org.graalvm.buildtools</groupId>
                 <artifactId>native-maven-plugin</artifactId>
                 <extensions>true</extensions>
